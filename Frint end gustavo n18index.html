@@ -1,1 +1,86 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Artista Adele</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4); /* Gradiente de cor */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.float-image {
+    float: left;
+    margin-right: 15px;
+    opacity: 0.8; /* Imagem com transparência */
+    width: 300px;
+    height: auto;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Pseudo-elemento */
+h1::after {
+    content: " - O Melhor da Música";
+    color: #ffddc1;
+    font-weight: normal;
+}
+    </style>
+    <header>
+        <h1>Bem-vindo ao Fanpage da Adele</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Sobre Adele</h2>
+            <p>Adele Laurie Blue Adkins é uma cantora e compositora britânica, conhecida por sua poderosa voz e baladas emocionantes.</p>
+            <img src="https://images.app.goo.gl/GopgSQaukmMfGg8u9" alt="Adele" class="float-image">
+        </section>
+
+        <section>
+            <h2>Localização do Centro de Treinamento</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12176.701922639103!2d-83.4774976!3d41.6897611!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8830ff308b8a6f9d%3A0xf6497a9f82b0eb43!2sIronberg%20Bodybuilder%20Training%20Center!5e0!3m2!1sen!2sus!4v1692581186222!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <section>
+            <h2>Vídeo Musical</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ypunO2Zn2NY?si=pZiIX0a91knm58bI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fanpage da Adele. Criador: Gustavo Alves 18⁰ 2At. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
